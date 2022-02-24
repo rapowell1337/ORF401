@@ -44,8 +44,7 @@ function checkCookie() {
 function checkSeats() {
     if (!document.getElementById("id_taking_passengers").checked) {
         document.getElementById("id_seats_available").value = 0;
-        document.getElementById("id_seats_available").disabled = true;
     } else {
-        document.getElementById("id_seats_available").disabled = false;
+        document.getElementById("id_seats_available").value = 1;
     }
 }

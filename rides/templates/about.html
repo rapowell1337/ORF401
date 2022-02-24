@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="d-flex mt-4">
+  <div class="col-3">
+
+  </div>
+
+  <div class="col-6">
+    <img src="{% static 'shrey_headshot.jpg' %}" alt="Image of logo" height="390" class="rounded-circle">
+    <div class="m-4 fw-bold h1 custom-primary-text">Shrey Addagatla</div>
+    
+    <div class="m-5 h4 fw-normal">
+      Shrey graduated from Princeton University with a degree in Operations Research and Financial Engineering. Outside of developing commutewith.us, he is known for being a previous member of the PayPal mafia. He, along with Peter Thiel, were among early investors in Meta (formerly Facebook). Now, he is recognized for his work in autonomous vehicle networks, specifically the development of cooperative autonomous vehicles.
+    </div>
+    
+    <img src="{% static 'roosevelt_headshot.jpg' %}" alt="Image of logo" height="390" class="rounded-circle">
+    
+    <div class="m-4 fw-bold h1 custom-primary-text">Roosevelt Scaggs</div>
+    
+    <div class="m-5 h4 fw-normal">
+      Roosevelt graduated from Princeton University with a degree in Computer Science. He has previously worked as an IT consultant for Fortune 500 companies such as Walmart, Amazon, and Apple. Currently, he has retired from consulting and is now working as a visiting professor at Yale University in the Information Technology and Management department.
+    </div>
+    
+  </div>
+
+  <div class="col-3">
+
+  </div>
+</div>
+{% endblock %} 
